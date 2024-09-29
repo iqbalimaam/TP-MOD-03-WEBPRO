@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Diri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+        }
+        .profile-section {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .profile-img {
+            width: 200px;
+            height: auto;
+        }
+        .intro-text {
+            margin-top: 20px;
+        }
+        table {
+            width: 100%;
+            margin-top: 15px;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .form-section {
+            margin-top: 20px;
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-links a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Profile Diri</h1>
+
+    <div class="profile-section">
+        <img src="foto.jpg" alt="Foto Profil" class="profile-img">
+
+        <iframe width="320" height="240" src="https://www.youtube.com/embed/g4OVZ_kd9qQ" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="intro-text">
+        <h2>Tentang Saya</h2>
+        <p>Halo! Saya adalah salah satu mahasiswi dari Telkom University yang sedang mempelajari Mata Kuliah Pemrograman Website.</p>
+    </div>
+
+    <div class="skills">
+        <h2>Keterampilan</h2>
+        <table>
+            <tr>
+                <th>Keterampilan</th>
+                <th>Tingkat</th>
+            </tr>
+            <tr>
+                <td>HTML/CSS</td>
+                <td>Pemula</td>
+            </tr>
+            <tr>
+                <td>Golang</td>
+                <td>Mahir</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Pemula</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Pemula</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="form-section">
+        <h2>Hubungi Saya</h2>
+        <form action="submit.html" method="POST">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" placeholder="Masukkan nama" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Masukkan email" required>
+
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tulis pesan Anda" required></textarea>
+
+            <button type="submit">Kirim Pesan</button>
+        </form>
+    </div>
+
+    <div class="social-links">
+        <h2>Media Sosial</h2>
+        <a href="https://x.com/iqbalimam31180?s=21" target="_blank">x</a> |
+        <a href="https://www.tiktok.com/@banyaktanyooo?_t=8q8DHriHfXM&_r=1" target="_blank">Tiktok</a> |
+        <a href="https://www.instagram.com/iqbalimaam?igsh=MWx6cWJseTZ1cGJ4eg==" target="_blank">Instagram</a>
+    </div>
+
+</div>
+
+</body>
+</html>
